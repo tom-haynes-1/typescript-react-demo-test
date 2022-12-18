@@ -1,6 +1,6 @@
 # Typescript Practise using React
 
-This project is following an short online course in order to refresh Typescript concepts in React.
+This project is following an short online course in order to refresh React concepts using Typescript.
 
 
 # Getting Started with Create React App

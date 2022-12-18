@@ -1,3 +1,8 @@
+# Typescript Practise using React
+
+This project is following an short online course in order to refresh Typescript concepts in React.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,10 +1,9 @@
 // map through an array of objects to pass into the namesList prop
 
+import { Name } from "./Person.types";
+
 interface PersonListProps {
-    namesList: {
-        firstName: string;
-        lastName: string;
-    }[]
+    namesList: Name[]
 }
 
 const PersonList = ({

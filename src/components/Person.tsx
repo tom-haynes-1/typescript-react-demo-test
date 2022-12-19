@@ -1,11 +1,6 @@
 // return values of an object to pass in the personName prop.
 
-interface PersonProps {
-    personName: {
-        firstName: string;
-        lastName: string;
-    }
-}
+import { PersonProps } from "./Person.types";
 
 const Person = ({
     personName

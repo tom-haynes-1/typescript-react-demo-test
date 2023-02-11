@@ -39,29 +39,26 @@ const Counter = () => {
 
     return (
         <>
-            Count: {state.count}
+            Count: { state.count }
                 <button 
-                    onClick={() => 
-                    dispatch({ type: 'increment', payload: 10 })}
+                    onClick={ () => dispatch({ type: 'increment', payload: 10 }) }
                 >
                     Increment by 10
                 </button>
 
                 <button 
-                    onClick={() => 
-                    dispatch({ type: 'decrement', payload: 10 })}
+                    onClick={ () => dispatch({ type: 'decrement', payload: 10 }) }
                 >
                     Decrement by 10
                 </button>
                 
                 <button 
-                    onClick={() => 
-                    dispatch({ type: 'reset' })}
+                    onClick={ () => dispatch({ type: 'reset' }) }
                 >
                     Reset
                 </button>
         </>
-    )
-}
+    );
+};
 
 export default Counter;

@@ -33,14 +33,25 @@ const User = ({
 
     return (
         <div>
-            <button onClick={handleLogin}>Log in</button>
-            <button onClick={handleLogout}>Log out</button>
+            <button 
+                onClick={ handleLogin }
+            >
+                Log in
+            </button>
+            <button 
+                onClick={ handleLogout }
+            >
+                Log out
+            </button>
             {/* TS uses the optional chaining operator (?) with the 'user' value as we've explicity stated that it 'can' be either a prop within AuthUserProps OR null */}
-            <div>User name: {user?.name}</div>
-            <div>User email: {user?.email} </div>
+            <div>
+                User name: { user?.name }
+            </div>
+            <div>
+                User email: { user?.email } 
+            </div>
         </div>
-    )
-
-}
+    );
+};
 
 export default User;

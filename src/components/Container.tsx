@@ -9,10 +9,14 @@ interface ContainerProps {
 const Container = ({
     styles
 }: ContainerProps) => {
+    
     return (
-        <div style={styles}>
+        <div 
+            style={ styles }
+        >
             Content goes here
-        </div> 
-   )
-}
+        </div>
+   );
+};
+
 export default Container;;

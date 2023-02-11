@@ -10,7 +10,12 @@ interface ButtonProps {
 const Button = ({
     handleClick
 }: ButtonProps) => {
-    return <button onClick={handleClick}>Click me</button>
-}
+    
+    return <button 
+                onClick={ handleClick }
+            >
+                Click me
+            </button>
+};
 
 export default Button;

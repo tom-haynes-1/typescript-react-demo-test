@@ -12,6 +12,7 @@ const Greet = ({
     messageCount,
     isLoggedIn
 }: GreetProps) => {
+    
     return (
         <div>
             <h2>
@@ -22,8 +23,8 @@ const Greet = ({
                 }
             </h2>
         </div>
-    )
-}
+    );
+};
 
 
 

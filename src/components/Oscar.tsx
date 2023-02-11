@@ -7,7 +7,8 @@ interface OscarProps {
 const Oscar = ({
     children
 }: OscarProps) => {
-    return <div>{children}</div>
-}
+    
+    return <div>{ children }</div>
+};
 
 export default Oscar;

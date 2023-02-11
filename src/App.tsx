@@ -36,23 +36,16 @@ const App = () => {
   return (
     <div className="App">
       <Container 
-        styles=
-        {{
-          border: '1px solid black', padding: '1rem'
-        }}
+        styles={ {border: '1px solid black', padding: '1rem'} }
       />
 
       <Button 
-        handleClick={(event) => 
-          {console.log('button clicked', event)
-        }} 
+        handleClick={ (event) => {console.log('button clicked', event)} } 
       />
       
       <Input 
         value='0'
-        handleChange={(event) => 
-          {console.log(event)
-        }}
+        handleChange={ (event) => {console.log(event)} }
       />
     </div>
   );

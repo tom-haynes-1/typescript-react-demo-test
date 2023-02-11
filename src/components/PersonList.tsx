@@ -1,6 +1,6 @@
 // map through an array of objects to pass into the namesList prop
 
-import { Name } from "./Person.types";
+import { Name } from "./PersonTypes";
 
 interface PersonListProps {
     namesList: Name[]

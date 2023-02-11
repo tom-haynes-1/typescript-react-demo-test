@@ -2,12 +2,13 @@
 // status prop takes a union of string literals that we define using a pipe, rather than assiging it to ANY string.
 
 interface StatusProps {
-    status: 'loading' | 'success' | 'error'
+    status: 'loading' | 'success' | 'error';
 }
 
 const Status = ({
     status
 }: StatusProps) => {
+
     let message = '';
 
     if (status === 'loading') {
@@ -20,9 +21,9 @@ const Status = ({
 
     return (
         <div>
-            <h2>Status - {message}</h2>
+            <h2>Status - { message }</h2>
         </div>
-    )
-}
+    );
+};
 
 export default Status;

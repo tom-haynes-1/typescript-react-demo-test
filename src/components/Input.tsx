@@ -34,9 +34,9 @@ const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 
     return <input 
                 type="text" 
-                value={value}
-                onChange={handleInputChange}
+                value={ value }
+                onChange={ (event) => handleInputChange(event) }
             />
-}
+};
 
 export default Input;
